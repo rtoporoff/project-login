@@ -12,23 +12,107 @@
 
     <header class="header">
         <nav class="navbar">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Contact</a>
+            <a href="#">Início</a>
+            <a href="#">Sobre</a>
+            <a href="#">Serviços</a>
+            <a href="#">Contato</a>
         </nav>
 
         <form action="#" class="search-bar">
             <input type="text" placeholder="Search...">
-            <button type="submit"><i class='bx bx-search-alt-2' ></i></button>
+            <button type="submit"><i class='bx bx-search-alt-2'></i></button>
         </form>
     </header>
 
+    <div class="background"></div>
     <div class="container">
         <div class="content">
-            <div class="logreg-box"></div>
+            <h2 class="logo"><i class='bx bxl-firebase'></i>Banco de Questões do Dev</h2>
+            <div class="text-sci">
+                <h2>Bem vindo! <br><span>Projeto de tela de login e registro</span></h2><br>
+
+                <p>Banco de Questões do Dev
+                    - Desafie sua mente e aprimore suas habilidades de programação! <br>
+💻 Desafios Diários em várias linguagens. <br>
+🏆 Pontuação e Classificação global. <br>
+🤝 Comunidade ativa para discussões e aprendizado. <br>
+🎓 Recursos educativos para seu crescimento. <br> <br>
+
+Junte-se a nós e eleve suas habilidades de programação! </p>
+
+                <div class="social-icons">
+                    <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="#"><i class='bx bxl-github' ></i></a>
+                    <a href="#"><i class='bx bxl-instagram' ></i></a>
+                </div>
+            </div>
         </div>
+            
+        <div class="logreg-box">
+            <div class="form-box login">
+                <form action="#">
+                    <h2>Login</h2>
+
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bx-envelope' ></i></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bx-lock-alt' ></i></span>
+                        <input type="password" required>
+                        <label>Senha</label>
+                    </div>
+
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">Lembrar senha</label>
+                        <a href="#">Esqueci minha senha</a>
+                    </div>
+                    <button type="submit" class="btn">Login</button>
+
+                    <div class="login-register">
+                        <p>Não tem uma conta? <a href="#" class="register-link">Registre-se</a></p>
+                    </div>
+                </form>
+            </div>
+
+            <div class="form-box register">
+                <form action="#">
+                    <h2>Fazer cadastro</h2>
+
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bx-user'></i></i></span>
+                        <input type="text" required>
+                        <label>Nome</label>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bx-envelope' ></i></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bx-lock-alt' ></i></span>
+                        <input type="password" required>
+                        <label>Senha</label>
+                    </div>
+
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">Eu aceito os termos e condições</label>
+                    </div>
+                    <button type="submit" class="btn">Registrar-se</button>
+
+                    <div class="login-register">
+                        <p>Já tem uma conta? <a href="#" class="login-link">Login</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+
     </div>
+
 
     <script src="script.js"></script>
 </body>
