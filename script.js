@@ -1,3 +1,23 @@
+function postData() {
+    var formData = new FormData(document.getElementById("form"));
+    fetch('http://26.204.2.167:8080/swagger-ui/index.html', {
+        method: 'POST',
+        body:formData
+    })
+    .then (response => response.json())
+    .then (data => {
+        document.getElementById('result').innerHTML = 'Resposta da API:'
+    })
+    .catch (error => {
+        console.error ('Erro na chamada da API:', error);
+        document.getElementById ('result').innerHTML = 'Erro na Chamada'
+    })
+}
+
+
+
+
+
 const logregBox = document.querySelector('.logreg-box');
 const loginLink = document.querySelector('.login-link');
 const registerLink = document.querySelector('.register-link');
