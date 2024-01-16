@@ -50,23 +50,23 @@ Junte-se a nós e eleve suas habilidades de programação! </p>
             
         <div class="logreg-box">
             <div class="form-box login">
-                <form action="#">
+                <form id="formLogin" onsubmit="return login()">
                     <h2>Login</h2>
 
                     <div class="input-box">
                         <span class="icon"><i class='bx bx-envelope' ></i></span>
-                        <input type="email" required>
+                        <input id="email" type="email" required>
                         <label>Email</label>
                     </div>
 
                     <div class="input-box">
                         <span class="icon"><i class='bx bx-lock-alt' ></i></span>
-                        <input type="password" required>
+                        <input id="senha" type="password" required>
                         <label>Senha</label>
                     </div>
 
                     <div class="remember-forgot">
-                        <label><input type="checkbox">Lembrar senha</label>
+                        <label><input id="checkbox" type="checkbox">Lembrar senha</label>
                         <a href="#">Esqueci minha senha</a>
                     </div>
                     <button type="submit" class="btn">Login</button>
@@ -78,29 +78,29 @@ Junte-se a nós e eleve suas habilidades de programação! </p>
             </div>
 
             <div class="form-box register">
-                <form action="#">
+                <form id="formRegistro" onsubmit="return registrar()">
                     <h2>Fazer cadastro</h2>
 
                     <div class="input-box">
                         <span class="icon"><i class='bx bx-user'></i></i></span>
-                        <input type="text" required>
+                        <input id="nome" type="text" required>
                         <label>Nome</label>
                     </div>
 
                     <div class="input-box">
                         <span class="icon"><i class='bx bx-envelope' ></i></span>
-                        <input type="email" required>
+                        <input id="email" type="email" required>
                         <label>Email</label>
                     </div>
 
                     <div class="input-box">
                         <span class="icon"><i class='bx bx-lock-alt' ></i></span>
-                        <input type="password" required>
+                        <input id="senha" type="password" required>
                         <label>Senha</label>
                     </div>
 
                     <div class="remember-forgot">
-                        <label><input type="checkbox">Eu aceito os termos e condições</label>
+                        <label><input id="checkbox" type="checkbox">Eu aceito os termos e condições</label>
                     </div>
                     <button type="submit" class="btn">Registrar-se</button>
 
