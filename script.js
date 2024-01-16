@@ -17,7 +17,7 @@ function login(){
         formData.forEach(function(value,key){
             jsonData[key] = value;
      });
-        console.log(jsonData)
+        console.log(jsonData);
         return false;
 } 
      
@@ -28,6 +28,6 @@ function registrar(){
         formData.forEach(function(value,key){
             jsonData[key] = value;
      });
-        console.log(jsonData)
+        console.log(jsonData);
         return false;
 }
